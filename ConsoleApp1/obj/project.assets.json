@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\18067\\Documents\\DevFolder\\csharp-repository\\manymethod\\manymethod.csproj",
-      "projectName": "manymethod",
-      "projectPath": "C:\\Users\\18067\\Documents\\DevFolder\\csharp-repository\\manymethod\\manymethod.csproj",
+      "projectUniqueName": "C:\\Users\\18067\\Documents\\DevFolder\\csharp-repository\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "C:\\Users\\18067\\Documents\\DevFolder\\csharp-repository\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\18067\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\18067\\Documents\\DevFolder\\csharp-repository\\manymethod\\obj\\",
+      "outputPath": "C:\\Users\\18067\\Documents\\DevFolder\\csharp-repository\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\18067\\AppData\\Roaming\\NuGet\\NuGet.Config",

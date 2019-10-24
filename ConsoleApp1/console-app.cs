@@ -6,7 +6,11 @@ namespace manymethod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+       int a = 42:
+            int b =119
+        int c = a + b;
+            Console.Writeline(c);
+            Console.ReadKey();
         }
     }
 }

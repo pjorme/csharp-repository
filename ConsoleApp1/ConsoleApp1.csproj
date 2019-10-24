@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="C:\Users\18067\Documents\DevFolder\csharp-repository\manymethods.cs" Link="manymethods.cs" />
+  </ItemGroup>
+
 </Project>
