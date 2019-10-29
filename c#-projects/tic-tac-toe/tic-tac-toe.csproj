@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>tic_tac_toe</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\18067\Documents\DevFolder\csharp-repository\c#-projects\tic-tac-toe\tic-tac-toe.cs" Link="tic-tac-toe.cs" />
+  </ItemGroup>
+
+</Project>
