@@ -8,9 +8,9 @@ namespace paper_rock_scissors
         {
             string inputplayer, inputCPU;
             int randomInt;
-            
+
             bool playAgian = true;
-            
+
             while (playAgian)
             {
                 int scoreplayer = 0;
@@ -25,14 +25,14 @@ namespace paper_rock_scissors
                     inputplayer = inputplayer.ToUpper();
 
                     Random rnd = new Random();
-                    
+
                     randomeInt = rnd.Next(1, 4);
 
                     switch (randomInt)
                     {
                         case 1:
                             inputCPU = "rock";
-                    Console.WriteLine("computer chose rock");
+                            Console.WriteLine("computer chose rock");
                             if (inputplayer == "rock")
                             {
                                 Console.WriteLine("draw!!\n\n");
@@ -56,16 +56,16 @@ namespace paper_rock_scissors
                                 Console.WriteLine("CPU wins\n\n");
                                 scoreCPU++;
                             }
-                            else if (inputplayer == "scissore") ;
+                            else if (inputplayer == "scissore") 
                             {
-                                Console.WriteLine("player wins\n\n")
+                                Console.WriteLine("player wins\n\n");
                                 scoreplayer++;
                             }
-                            else if (inputplayer == "paper")
-                                (
+                            if (inputplayer == "paper")
 
-                                 Console.WriteLine("draw!!\n\n");
-                                 )
+
+                                Console.WriteLine("draw!!\n\n");
+
                             break;
                         case 3:
                             inputCPU = "scissors";
@@ -74,7 +74,7 @@ namespace paper_rock_scissors
                             {
                                 Console.WriteLine("draw!!\n\n");
                             }
-                            else if(inputplayer == "paper")
+                            else if (inputplayer == "paper")
                             {
                                 Console.WriteLine("cpu wins!!\n\n");
                                 scoreCPU++;
@@ -88,7 +88,7 @@ namespace paper_rock_scissors
                         default:
                             Console.WriteLine("invalid entry");
                             break;
-                            
+
                     }
                     Console.WriteLine("/n/nscores:\tplayer:\t{0}\tcpu:\t{1}", scoreplayer, scoreCPU);
                 }
@@ -106,12 +106,12 @@ namespace paper_rock_scissors
                 }
                 Console.WriteLine("Do you want to play agian? (y/n)");
                 string loop = Console.ReadLine();
-                if (loop == "y") ;
-                {
-                    playAgian = true;
-                    Console.Clear();
-                }
-                else if (loop == "n")
+                if (loop == "y") 
+
+                playAgian = true;
+                Console.Clear();
+
+                if (loop == "n")
                 {
                     playAgian = false;
                 }
@@ -121,6 +121,6 @@ namespace paper_rock_scissors
                 }
             }
 
-            
+
+        }
     }
-}
