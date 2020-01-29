@@ -18,7 +18,7 @@ namespace ConsoleApp1
             firstname = Console.ReadLine();
             Console.WriteLine("new name: " + firstname + "" + lastname);
             Console.WriteLine("Hello World!");
-            Console.Read.line();
+            Console.ReadLine();
         }
         }
 }
