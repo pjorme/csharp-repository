@@ -36,7 +36,6 @@
 
                 Console.WriteLine("What is your name? ");
                 name = Console.ReadLine();
-                students.Add(name, grades);
             }
 
             while (name.ToLower() == "quit")

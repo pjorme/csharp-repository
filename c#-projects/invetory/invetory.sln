@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "invetory", "invetory.csproj", "{ED7FA7C8-4912-43E5-AC78-74C5BA1F35C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED7FA7C8-4912-43E5-AC78-74C5BA1F35C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7FA7C8-4912-43E5-AC78-74C5BA1F35C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7FA7C8-4912-43E5-AC78-74C5BA1F35C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7FA7C8-4912-43E5-AC78-74C5BA1F35C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF0117BA-7074-4F0B-AF8B-4EAD5BCE9518}
+	EndGlobalSection
+EndGlobal
