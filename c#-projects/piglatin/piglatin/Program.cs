@@ -1,31 +1,50 @@
-﻿using System;
+﻿using System.Collections.Generic;
+using System;
+
 
 namespace piglatin
 {
     class Program
     {
-        static string ToPigLatin(string sentence)
+        public static void Main(string[] args )
         {
+            Console.WriteLine("which word would you like to use to change to latin");
 
-            const string vowels = "AEIOUaeio";
+            char [] vowels = {'a','e','i','o', 'u' };
             List<string> pigWords = new List<string>();
 
+            string sentence = Console.ReadLine(
+                ).ToLower();
             foreach (string word in sentence.Split(' '))
             {
                 string firstLetter = word.Substring(0, 1);
-                string restOfWord = word.Substring(1, word.Length - 1);
-                int currentLetter = vowels.IndexOf(firstLetter);
+                string lastletter = word.Substring(word.Length -1);
+                string restOfWord = word[1..];
+                int currentLetter = word.IndexOfAny(vowels);
 
                 if (currentLetter == -1)
                 {
-                    pigWords.Add(restOfWord + firstLetter + "ay");
+                    pigWords.Add(word + "ay");
+                }
+                else if (firstLetter.IndexOfAny(vowels) == 0)
+                {
+                    if (lastletter.IndexOfAny(vowels) == 0)
+                    {
+                        pigWords.Add(word +"yay");
+                    }
+                    else
+                    {
+                        pigWords.Add(word + "ay");
+                    }
                 }
                 else
                 {
-                    pigWords.Add(word + "way");
+                    pigWords.Add(restOfWord + firstLetter +"ay");
                 }
             }
-            return string.Join(" ", pigWords);
+             string.Join(" ", pigWords);
+            foreach (string word in pigWords)
+                Console.WriteLine(word);
         }
     }
 }
